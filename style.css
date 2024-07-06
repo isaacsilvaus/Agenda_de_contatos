@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin-top: 25px;
+    margin-left: 300px;
+    width: 900px;
+    height: 700px;
+    padding-top: 200px;
+    padding-left: 300px;
+    padding-right: 60px;
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: rgba(0, 248, 70, 0.219);
+}
+
+h1{
+    color: red;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+
+form input{
+    width: 300px;
+    height: 40px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 4px 4px 4px #000000;
+    background-color: whitesmoke;
+}
+
+form input:hover{
+    background-color: rgb(216, 213, 213);
+}
+
+button{
+    width: 300px;
+    height: 40px;
+    padding: 8px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    border: none;
+    box-shadow: 10px 10px 10px #000000;
+    background-color: rgb(53, 45, 204);
+    font-weight: bold;
+    color: blanchedalmond;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+button:hover{
+    background-color: rgb(25, 25, 172);
+    color: black;
+}
+
+table tr{
+    margin-left: 20px;
+    width: 400px;
+    border: 1px solid black;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+tr:hover {
+    background-color: #ddd;
+}
+th {
+    background-color: #4CAF50;
+    color: white;
+}
